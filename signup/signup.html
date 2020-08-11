@@ -1,0 +1,101 @@
+<html>
+<head>
+<title>SignUp</title>
+<style>
+.hero
+{
+background-image:url(signup.jpg);
+background-size:cover;
+opacity:0.75;
+}
+</style>
+</head>
+<body class="hero">
+<center>
+
+<form name="signup" method="get" action="http://localhost:8080/Library/signupadmin/signupadmin">
+<h1 style="font-family:verdana; color:red;">SignUp For Admin</h1>
+<table border="0">
+<tr>
+<td>
+<h3 style="font-style:small-caps; color:blue;">Admin Id:</h3>
+</td>
+<td><input type="text" name="adminid"></br></br></td>
+</tr>
+<tr>
+<td>
+<h3 style="font-style:small-caps; color:blue;">Admin Name:</h3>
+</td>
+<td>
+<input type="text" name="adminname"></br></br>
+</td>
+</tr>
+<tr>
+<td>
+<h3 style="font-style:small-caps; color:blue;">D-O-B:(yyyy-mm-dd)</h3>
+</td>
+<td>
+<input type="text" name="dob"></br></br>
+</td>
+</tr>
+<tr>
+<td>
+<h3 style="font-style:small-caps; color:blue;">College:</h3>
+</td>
+<td>
+<input type="text" name="clg"></br></br>
+</td>
+</tr>
+
+</table>
+<input type="submit" value="SignUp" />
+</form>
+
+<form name="signup" method="get" action="http://localhost:8080/signup/signup">
+<h1 style="font-family:verdana; color:red;">SignUp For Student</h1>
+<table border="0">
+<tr>
+<td>
+<h3 style="font-style:small-caps; color:orange;">Student Id:</h3>
+</td>
+<td><input type="text" name="studid"></br></br></td>
+</tr>
+<tr>
+<td>
+<h3 style="font-style:small-caps; color:orange;">Student Name:</h3>
+</td>
+<td>
+<input type="text" name="studname"></br></br>
+</td>
+</tr>
+<tr>
+<td>
+<h3 style="font-style:small-caps; color:orange;">Degree:</h3>
+</td>
+<td>
+<input type="text" name="deg"></br></br>
+</td>
+</tr>
+<tr>
+<td>
+<h3 style="font-style:small-caps; color:orange;">year:</h3>
+</td>
+<td>
+<input type="text" name="year"></br></br>
+</td>
+</tr>
+<tr>
+<td>
+<h3 style="font-style:small-caps; color:orange;">D-O-B:(yyyy-mm-dd)</h3>
+</td>
+<td>
+<input type="text" name="dob"></br></br>
+</td>
+</tr>
+
+</table>
+<input type="submit" value="SignUp" />
+</form>
+</center>
+</body>
+</html>
